@@ -1,10 +1,10 @@
-# TUNE: 세그먼트 분할·집계 전략에 따른 음악 임베딩 품질의 비교 분석
+# 세그먼트 분할·집계 전략에 따른 음악 임베딩 품질의 비교 분석
 
 > **A Comparative Analysis of Music Embedding Quality Based on Segment Division and Aggregation Strategies**
 
 ## 📋 Overview
 
-TUNE은 [MARBLE](https://github.com/a43992899/MARBLE) 벤치마크와 [MuQ](https://github.com/tencent-ailab/MuQ) 임베딩 백본을 활용하여 음악 임베딩 생성 시 세그먼트 분할 및 집계 전략이 품질과 효율성에 미치는 영향을 체계적으로 분석한 연구입니다.
+본 연구는 2025년 가천x세종 연합 학술제의 연구팀 TUNE이 진행한 연구로, [MARBLE](https://github.com/a43992899/MARBLE) 벤치마크와 [MuQ](https://github.com/tencent-ailab/MuQ) 임베딩 백본을 활용하여 음악 임베딩 생성 시 세그먼트 분할 및 집계 전략이 품질과 효율성에 미치는 영향을 체계적으로 분석한 연구입니다.
 
 최신 음악 임베딩 모델들은 트랜스포머 아키텍처를 통해 높은 성능을 달성했지만, 긴 오디오 시퀀스에 대한 **O(N²) 계산 복잡도 문제**로 실용성에 한계가 있습니다. 본 연구는 이를 해결하기 위한 다양한 세그먼트 분할·집계 전략을 정량적으로 비교하여, **성능-효율성 트레이드오프** 관계를 규명합니다.
 
